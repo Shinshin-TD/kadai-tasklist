@@ -44,7 +44,7 @@ class TaskController extends Controller
         $task = Task::findOrFail($id);
         
         //メッセージ詳細ビューでそれを表示
-        return view('tasks.show',[
+        return view('tasks.show', [
             'task' => $task,
             ]);
     }
