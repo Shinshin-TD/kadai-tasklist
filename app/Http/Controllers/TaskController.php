@@ -66,7 +66,7 @@ class TaskController extends Controller
         //idの値でメッセージを検索して取得
         $task = Task::findOrFail($id);
         
-        $task->conotent = $request->content;
+        $task->content = $request->content;
         $task->save();
         
         return redirect('/');
