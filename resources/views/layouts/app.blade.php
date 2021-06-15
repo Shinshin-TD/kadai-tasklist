@@ -9,7 +9,7 @@
 
     <body>
         {{--ナビゲーションバー--}}
-        @include('commons.navber')
+        @include('commons.navbar')
         
        
         <div class="container">
